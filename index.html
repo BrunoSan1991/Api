@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch User Github</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="container">
+        <h2>Usuário Github</h2>
+        <form>
+          <div class="container-input">
+            <label for="name">Usuário Github</label>
+            <input id="name" type="text" name="name"/>
+          </div>
+          <input type="submit" value="Buscar"/>
+          <div id="container-user">
+            <img id="user-img" />
+            <span id="user-name"></span>
+          </div>
+          <span id="message-error"></span>
+        </form>
+
+        <input type="button" id="remove-localstorage" value="Excluir localstorage"/>
+
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
